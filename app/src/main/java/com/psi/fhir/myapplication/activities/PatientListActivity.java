@@ -29,7 +29,7 @@ public class PatientListActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.patient_list);
-        populateUsersList();
+                populateUsersList();
 
         setupPatientSelectedListener();
     }
